@@ -23,11 +23,16 @@ nav.navbar,
     border: #fff 1px solid;
 }
 
+.mb-3 h4{
+    text-align: center;
+}
+
 .footer{
     background-color: #202225;
     padding: 0px;
     text-align: center;
 }
+
 
 
 
