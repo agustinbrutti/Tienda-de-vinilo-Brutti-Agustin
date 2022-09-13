@@ -1,6 +1,7 @@
 nav.navbar,
-.card-body {
-    background-color: #202225;
+.card-body,
+.footer {
+    background-color: #2F3136;
 }
 
 .navbar-brand,
@@ -27,8 +28,8 @@ nav.navbar,
     text-align: center;
 }
 
+
 .footer{
-    background-color: #202225;
     padding: 0px;
     text-align: center;
 }
