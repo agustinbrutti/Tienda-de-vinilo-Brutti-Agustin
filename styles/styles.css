@@ -15,10 +15,7 @@ nav.navbar,
     font-weight: 600;
 }
 
-.rowcard{
-    display: flex;
-    margin-left: 70px;
-}
+
 
 .card-body{
     text-align: center;
