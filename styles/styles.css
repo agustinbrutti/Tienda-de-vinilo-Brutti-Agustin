@@ -1,6 +1,38 @@
+nav.navbar,
+.card-body {
+    background-color: #202225;
+}
 
+.navbar-brand,
+.navbar-nav .nav-link.active,
+.textocarrusel,
+.footer,
+.card-body{
+    color: #fff;
+}
 
+.textocarrusel{
+    font-weight: 600;
+}
 
+.rowcard{
+    display: flex;
+    margin-left: 70px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-img, .card-img-top{
+    border: #fff 1px solid;
+}
+
+.footer{
+    background-color: #202225;
+    padding: 0px;
+    text-align: center;
+}
 
 
 
