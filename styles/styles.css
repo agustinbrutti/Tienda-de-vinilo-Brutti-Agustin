@@ -28,7 +28,8 @@ nav.navbar,
     text-align: center;
 }
 
-.CardArticulo{
+.CardArticulo,
+.CardNovedades{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +65,9 @@ nav.navbar,
     justify-content: center;
 }
 
+.containerNovedades{
+    padding: 30px 0;
+}
 
 
 
