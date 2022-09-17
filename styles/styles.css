@@ -28,6 +28,12 @@ nav.navbar,
     text-align: center;
 }
 
+.CardArticulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cardContacto {
     background-color: #E5E5E5;
     color: #000;
