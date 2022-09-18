@@ -68,7 +68,27 @@ nav.navbar,
     padding: 30px 0;
 }
 
+.button{
+    background-color: #787878 !important;
+    border-color: #000;
+    color: #fff;
+}
 
+.btn:first-child:hover{
+    border-color: #2F3136;
+    color: #BB5B1C;
+    background-color: #fff !important;
+}
+
+.buttonCards{
+    background-color: #729F98;
+    border-color: #fff;
+}
+
+.btn:first-child:hover, :not(.btn-check) + .btn:hover{
+    background-color: #202225;
+    border-color: #E5E5E5;
+}
 
 /* *{
     padding: 0;
