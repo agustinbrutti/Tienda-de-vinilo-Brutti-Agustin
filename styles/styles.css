@@ -100,6 +100,16 @@ nav.navbar,
     border-color: #E5E5E5;
 }
 
+.header ul li:hover{
+    background-color: #729F98;
+    padding: 01px;
+    border-radius: 01px;
+}
+
+.header ul li{
+    transition: all 0.5s ease;
+}
+
 /* *{
     padding: 0;
     margin: 0;
