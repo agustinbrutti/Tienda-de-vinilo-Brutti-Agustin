@@ -131,6 +131,10 @@ a{
     margin-bottom: 10px;
  }
 
+ .articulo .fecha-destacado{
+    color: #868b8d;
+ }
+
  .articulo .extracto {
     font-size: 20px;
     line-height: 25px;
