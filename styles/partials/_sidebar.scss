@@ -1,0 +1,35 @@
+.sidebar {
+    padding: 5em 1.56em;
+    text-align: center;
+    min-height: 6.25rem;
+    grid-area: aside;
+    background: #000;
+    color: #868b8d;
+    .newsletter img {
+        border-radius: 100%;
+        height: 10em;
+        width: 10em;
+        margin-bottom: 1.56em;
+    }
+    .descripcion {
+        margin-bottom: 1.56em;
+        font-size: 1.25em;
+        line-height: 1.56em;
+    }
+    .menu {
+        width: 100%;
+        display: inline-block;
+        background: #313338;
+        a {
+            padding: 1.56rem; 
+            color: #fff;
+            background-color: #000;
+            display: block;
+            font-size: 1em;
+            text-transform: uppercase;
+            &:hover {
+                background: #262626;
+            }
+        }
+    }
+}

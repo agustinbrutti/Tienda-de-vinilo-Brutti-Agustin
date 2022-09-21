@@ -1,0 +1,45 @@
+.header{
+    grid-area: header;
+    padding: 1.25em;
+    background: $backgroundHeader;
+    .logo {
+        margin-bottom: 1.25em;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        h1 {
+            font-size: 1.875em;
+            color: $colorh1Header;
+        }
+        .iniciales-logo {
+            padding: 0.31em;
+            color: $colorIniciales-Logo;
+            border: 2px solid $colorBordeIniciales-Logo;
+            display: inline-block;
+            font-size: 1em;
+            margin-bottom: 0.93em;
+        }
+    }
+    .menu {
+        border-top: 1px solid $colorBordesMenuHeader;
+        border-bottom: 1px solid $colorBordesMenuHeader;
+        display: flex;
+        justify-content: space-between;
+        a {
+            padding: 0.625em;
+            color: $colorLinksMenuHeader;
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 400;
+            width: 100%;
+            text-align: center;
+            transition: 0.2s ease all;
+            font-size: 1rem;
+            &:hover {
+                background: $backgroundHoverMenuHeader;
+                color: $colorHoverMenuHeader;
+            }
+        }
+    }
+ }
