@@ -256,3 +256,55 @@ a{
     padding: 1.5625rem;
     text-align: center;
 }
+
+
+@media (max-width: 768px) {
+        .articulo.destacado {
+            grid-area: destacado;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .articulo.destacado .contenedor-thumbnail {
+            height: 50%;
+        }
+
+        .articulo .contenedor-thumbnail{
+            width: 0;
+        }
+}
+
+@media (max-width: 480px) {
+        .contenedor{
+            width: 100%;
+            max-width: 75em;
+            margin: 1.25em auto;
+            display: flex;
+            flex-direction: column;
+            grid-gap: 1.25em;
+            grid-template-columns: repeat(1fr);
+            grid-template-rows: repeat(1);
+            grid-template-areas: 
+                "header"
+                "destacado"
+                "contenido"
+                "aside"
+                "footer";
+        }
+
+        .menu a{
+            font-size: 11px;
+        }
+
+        .articulo .contenedor-thumbnail{
+            width: 0;
+        }
+
+        .articulo.destacado {
+            grid-area: destacado;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+}
+
