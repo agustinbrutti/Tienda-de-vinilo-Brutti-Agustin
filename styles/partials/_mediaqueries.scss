@@ -1,26 +1,31 @@
 @media (max-width: 768px) {
-    .articulo.destacado {
+    .articulo.destacado{
         grid-area: destacado;
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .articulo.destacado .contenedor-thumbnail {
+    .articulo.destacado .contenedor-thumbnail{
         height: 50%;
     }
 
     .articulo .contenedor-thumbnail{
         width: 0;
     }
+
 }
 
 @media (max-width: 480px) {
     .contenedor{
-        width: 100%;
+        width: 90%;
         max-width: 480px;
         margin: 1.25em auto;
         display: flex;
         flex-direction: column;
+    }
+
+    .header {
+        padding: 0;
     }
 
     .header .menu a{

@@ -1,0 +1,24 @@
+.contenedor-contacto{
+    width: 90%;
+    max-width: 75em;
+    margin: 1.25em auto;
+    display: grid;
+    grid-gap: 1.25em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        "header header header"
+        "logo-contacto logo-contacto logo-contacto"
+        "contacto-wrapper contacto-wrapper contacto-wrapper"
+        "footer-contacto footer-contacto footer-contacto";
+    p {
+        color: #fff;
+        padding: 10px;
+    }
+    h2 {
+        color: #D4641B;
+    }
+    h3 {
+        color: #fff;
+    }
+}
