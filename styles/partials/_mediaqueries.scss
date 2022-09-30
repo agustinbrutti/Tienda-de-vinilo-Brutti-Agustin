@@ -6,11 +6,19 @@
     }
 
     .articulo.destacado .contenedor-thumbnail{
-        height: 50%;
+        height: 16em;
     }
 
     .articulo .contenedor-thumbnail{
         width: 0;
+    }
+
+    .contenedorTienda .contenido-tienda {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor img {
+        object-fit: fill;
     }
 
 }
@@ -22,6 +30,10 @@
         margin: 1.25em auto;
         display: flex;
         flex-direction: column;
+    }
+
+    .contenedor img {
+        object-fit: fill;
     }
 
     .header {
@@ -36,10 +48,24 @@
         width: 0;
     }
 
+    .contenedorTienda .articulo-destacado-tienda {
+        display: none;
+    }
+
     .articulo.destacado {
         grid-area: destacado;
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+
+    .contenedorTienda .contenido-tienda {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .contenido-tienda .articulo-tienda {
+        width: 100%;
     }
 
 }
