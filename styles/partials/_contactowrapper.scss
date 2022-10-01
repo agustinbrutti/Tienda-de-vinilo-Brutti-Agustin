@@ -26,11 +26,10 @@
                 outline: none;
                 color: #fff;
             }
-            button {
+            .boton-contacto {
+                @extend %botonDefault;
                 background: #000;
                 border: 0;
-                text-transform: uppercase;
-                padding: 1em;
                 margin-top: 10px;
                 &:hover,
                 &:focus {

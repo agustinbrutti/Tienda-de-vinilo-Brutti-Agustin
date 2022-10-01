@@ -29,16 +29,14 @@
                 text-transform: uppercase;
                 color: #fff;
             }
-            button {
+            .boton-tienda {
+                @extend %botonDefault;
                 background: #000;
                 border-radius: 20px;
                 border: none;
                 color: coral;
-                padding: 10px;
                 width: 100%;
                 font-weight: 600;
-                text-transform: uppercase;
-                cursor: pointer;
             }
             p {
                 margin: 10px;

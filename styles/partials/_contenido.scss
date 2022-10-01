@@ -39,13 +39,11 @@
         color: #fff;
     }
     .btn-link {
+        @extend %botonDefault;
         color: #fff;
-        cursor: pointer;
         display: inline-block;
-        padding: 0.625em;
         background-color: #262626;
         font-size: 1em;
-        text-transform: uppercase;
         letter-spacing: 1px;
         align-self: flex-end;
         &:hover {

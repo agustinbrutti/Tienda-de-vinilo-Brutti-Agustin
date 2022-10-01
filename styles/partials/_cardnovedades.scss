@@ -23,16 +23,14 @@
             text-transform: uppercase;
             color: #fff;
         }
-        button {
+        .boton-novedades {
+            @extend %botonDefault;
             background: #fff;
             border-radius: 10px;
             border: none;
             color: coral;
-            padding: 10px;
             width: 100%;
             font-weight: 600;
-            text-transform: uppercase;
-            cursor: pointer;
         }
         p {
             margin: 10px;

@@ -1,3 +1,9 @@
+.boton-contacto, .boton-preventas, .boton-novedades, .boton-tienda, .btn-link, .grilla-card-preventas .cards .boton-preventas, .grilla-card-novedades .cards .boton-novedades, .contacto-wrapper .contacto-form form .boton-contacto, .articulo-tienda .text-card-tienda .boton-tienda, .articulo .btn-link {
+  cursor: pointer;
+  padding: 0.625em;
+  text-transform: uppercase;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -124,12 +130,9 @@ body {
 }
 .articulo .btn-link {
   color: #fff;
-  cursor: pointer;
   display: inline-block;
-  padding: 0.625em;
   background-color: #262626;
   font-size: 1em;
-  text-transform: uppercase;
   letter-spacing: 1px;
   align-self: flex-end;
 }
@@ -362,16 +365,13 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-.articulo-tienda .text-card-tienda button {
+.articulo-tienda .text-card-tienda .boton-tienda {
   background: #000;
   border-radius: 20px;
   border: none;
   color: coral;
-  padding: 10px;
   width: 100%;
   font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 .articulo-tienda .text-card-tienda p {
   margin: 10px;
@@ -469,14 +469,12 @@ body {
   outline: none;
   color: #fff;
 }
-.contacto-wrapper .contacto-form form button {
+.contacto-wrapper .contacto-form form .boton-contacto {
   background: #000;
   border: 0;
-  text-transform: uppercase;
-  padding: 1em;
   margin-top: 10px;
 }
-.contacto-wrapper .contacto-form form button:hover, .contacto-wrapper .contacto-form form button:focus {
+.contacto-wrapper .contacto-form form .boton-contacto:hover, .contacto-wrapper .contacto-form form .boton-contacto:focus {
   background: #fff;
   color: #AF561C;
   transition: background-color 1s ease-out;
@@ -529,16 +527,13 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-.grilla-card-novedades .cards button {
+.grilla-card-novedades .cards .boton-novedades {
   background: #fff;
   border-radius: 10px;
   border: none;
   color: coral;
-  padding: 10px;
   width: 100%;
   font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 .grilla-card-novedades .cards p {
   margin: 10px;
@@ -680,16 +675,13 @@ body {
   color: #fff;
   margin: 15px;
 }
-.grilla-card-preventas .cards button {
+.grilla-card-preventas .cards .boton-preventas {
   background: #2F3136;
   border-radius: 10px;
   border: none;
   color: #DEC3A4;
-  padding: 10px;
   width: 100%;
   font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 .grilla-card-preventas .cards p {
   margin: 10px;
@@ -702,4 +694,56 @@ body {
   text-align: center;
   padding: 1.5625rem;
   font-size: 1.25em;
+}
+
+.btn-link {
+  color: #fff;
+  display: inline-block;
+  background-color: #262626;
+  font-size: 1em;
+  letter-spacing: 1px;
+  align-self: flex-end;
+}
+.btn-link:hover {
+  background: #000;
+  text-decoration: none;
+}
+
+.boton-tienda {
+  background: #000;
+  border-radius: 20px;
+  border: none;
+  color: coral;
+  width: 100%;
+  font-weight: 600;
+}
+
+.boton-novedades {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  color: coral;
+  width: 100%;
+  font-weight: 600;
+}
+
+.boton-preventas {
+  background: #2F3136;
+  border-radius: 10px;
+  border: none;
+  color: #DEC3A4;
+  width: 100%;
+  font-weight: 600;
+}
+
+.boton-contacto {
+  background: #000;
+  border: 0;
+  margin-top: 10px;
+}
+.boton-contacto:hover, .boton-contacto:focus {
+  background: #fff;
+  color: #AF561C;
+  transition: background-color 1s ease-out;
+  outline: 0;
 }/*# sourceMappingURL=styles.css.map */
