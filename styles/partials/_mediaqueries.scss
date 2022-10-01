@@ -6,7 +6,7 @@
     }
 
     .articulo.destacado .contenedor-thumbnail{
-        height: 16em;
+        height: 16rem;
     }
 
     .articulo .contenedor-thumbnail{
@@ -20,6 +20,18 @@
     .contenedor img {
         object-fit: fill;
     }
+
+    
+    .banner-novedades .imagen-novedades {
+            height: 236px;
+            width: 100%;
+            object-fit: cover;
+        }
+    
+    .contenedorNovedades .card-novedades {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
 
 }
 
@@ -48,7 +60,8 @@
         width: 0;
     }
 
-    .contenedorTienda .articulo-destacado-tienda {
+    .contenedorTienda .articulo-destacado-tienda,
+    .contenedorNovedades .articulo-destacado-novedades {
         display: none;
     }
 
@@ -65,6 +78,15 @@
     }
 
     .contenido-tienda .articulo-tienda {
+        width: 100%;
+    }
+
+    .contenedorNovedades .card-novedades {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .card-novedades .grilla-card-novedades {
         width: 100%;
     }
 
