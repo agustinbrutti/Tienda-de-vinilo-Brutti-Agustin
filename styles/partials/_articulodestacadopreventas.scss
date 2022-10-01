@@ -1,12 +1,13 @@
-.articulo-destacado-tienda {
-    grid-area: articulo-destacado-tienda;
-    color: #BA925C;
+.articulo-destacado-preventas {
+    grid-area: articulo-destacado-preventas ;
+    color: #DEC3A4;
     background-color: #2F3136;
+    border: 1px solid #000;
+    text-transform: uppercase;
     align-items: center;
-
     display: grid;
     grid-template-columns: 1.3fr 1fr;
-    .contenedor-thumbnail-tienda {
+    .contenedor-thumbnail-novedades {
         min-height: 100%;
         width: 100%;
         a {
