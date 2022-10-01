@@ -1,7 +1,7 @@
 .header{
     grid-area: header;
     padding: 1.25em;
-    background: $backgroundHeader;
+    background: map-get($coloresHeader, backgroundHeader);
     .logo {
         margin-bottom: 1.25em;
         text-transform: uppercase;
@@ -9,25 +9,25 @@
         letter-spacing: 3px;
         h1 {
             font-size: 1.875em;
-            color: $colorh1Header;
+            color: map-get($coloresHeader, colorh1Header);
         }
         .iniciales-logo {
             padding: 0.31em;
-            color: $colorIniciales-Logo;
-            border: 2px solid $colorBordeIniciales-Logo;
+            color: map-get($coloresHeader, colorIniciales-Logo);
+            border: 2px solid map-get($coloresHeader, colorBordeIniciales-Logo);
             display: inline-block;
             font-size: 1em;
             margin-bottom: 0.93em;
         }
     }
     .menu {
-        border-top: 1px solid $colorBordesMenuHeader;
+        border-top: 1px solid map-get($coloresHeader, colorBordesMenuHeader);
         border-bottom: 1px solid $colorBordesMenuHeader;
         display: flex;
         justify-content: space-between;
         a {
             padding: 0.625em;
-            color: $colorLinksMenuHeader;
+            color: map-get($coloresHeader, colorLinksMenuHeader);
             display: block;
             text-decoration: none;
             text-transform: uppercase;
@@ -37,8 +37,8 @@
             transition: 0.2s ease all;
             font-size: 1rem;
             &:hover {
-                background: $backgroundHoverMenuHeader;
-                color: $colorHoverMenuHeader;
+                background: map-get($coloresHeader, backgroundHoverMenuHeader);
+                color: map-get($coloresHeader, colorHoverMenuHeader);
             }
         }
     }
