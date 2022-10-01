@@ -1,4 +1,4 @@
-.boton-contacto, .boton-preventas, .boton-novedades, .boton-tienda, .btn-link, .grilla-card-preventas .cards .boton-preventas, .grilla-card-novedades .cards .boton-novedades, .contacto-wrapper .contacto-form form .boton-contacto, .articulo-tienda .text-card-tienda .boton-tienda, .articulo .btn-link {
+.boton-contacto, .boton-preventas, .boton-novedades, .btn-link, .contacto-wrapper .contacto-form form .boton-contacto, .articulo .btn-link {
   cursor: pointer;
   padding: 0.625em;
   text-transform: uppercase;
@@ -170,21 +170,6 @@ body {
   background-color: #868686;
   width: 6em;
   height: 1px;
-}
-.articulo.destacado .btn-link {
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  padding: 0.625em;
-  background-color: #262626;
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  align-self: flex-end;
-}
-.articulo.destacado .btn-link:hover {
-  background: #000;
-  text-decoration: none;
 }
 
 .sidebar {
@@ -365,14 +350,6 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-.articulo-tienda .text-card-tienda .boton-tienda {
-  background: #000;
-  border-radius: 20px;
-  border: none;
-  color: coral;
-  width: 100%;
-  font-weight: 600;
-}
 .articulo-tienda .text-card-tienda p {
   margin: 10px;
 }
@@ -527,14 +504,6 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-.grilla-card-novedades .cards .boton-novedades {
-  background: #fff;
-  border-radius: 10px;
-  border: none;
-  color: coral;
-  width: 100%;
-  font-weight: 600;
-}
 .grilla-card-novedades .cards p {
   margin: 10px;
   color: #E2E2E2;
@@ -675,14 +644,6 @@ body {
   color: #fff;
   margin: 15px;
 }
-.grilla-card-preventas .cards .boton-preventas {
-  background: #2F3136;
-  border-radius: 10px;
-  border: none;
-  color: #DEC3A4;
-  width: 100%;
-  font-weight: 600;
-}
 .grilla-card-preventas .cards p {
   margin: 10px;
   color: #E2E2E2;
@@ -710,10 +671,13 @@ body {
 }
 
 .boton-tienda {
-  background: #000;
+  cursor: pointer;
+  padding: 0.625em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: coral;
   border-radius: 20px;
   border: none;
-  color: coral;
   width: 100%;
   font-weight: 600;
 }

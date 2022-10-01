@@ -13,11 +13,10 @@
 }
 
 .boton-tienda {
-    @extend %botonDefault;
-    background: #000;
+    @include boton ($backColor:#000);
+    color: coral;
     border-radius: 20px;
     border: none;
-    color: coral;
     width: 100%;
     font-weight: 600;
 }

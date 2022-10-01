@@ -23,15 +23,6 @@
             text-transform: uppercase;
             color: #fff;
         }
-        .boton-novedades {
-            @extend %botonDefault;
-            background: #fff;
-            border-radius: 10px;
-            border: none;
-            color: coral;
-            width: 100%;
-            font-weight: 600;
-        }
         p {
             margin: 10px;
             color: #E2E2E2;

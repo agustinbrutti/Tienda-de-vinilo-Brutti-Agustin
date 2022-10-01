@@ -29,15 +29,6 @@
                 text-transform: uppercase;
                 color: #fff;
             }
-            .boton-tienda {
-                @extend %botonDefault;
-                background: #000;
-                border-radius: 20px;
-                border: none;
-                color: coral;
-                width: 100%;
-                font-weight: 600;
-            }
             p {
                 margin: 10px;
             }
