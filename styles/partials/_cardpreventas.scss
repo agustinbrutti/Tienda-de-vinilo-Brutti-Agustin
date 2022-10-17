@@ -1,0 +1,32 @@
+.card-preventas {
+    grid-area: card-preventas ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.875rem;
+    align-items: center;
+    margin: 80px;
+}
+    .grilla-card-preventas {
+        background: #000;
+        border: none;
+        box-shadow: 2px 2px 6px 0px #000;
+        text-align: center;
+        width: 250px;
+        transition: transform .3s;
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 2px 2px 6px 0px #000;
+        }
+        .cards {
+            padding: 0 20px 20px;
+            h4 {
+                text-transform: uppercase;
+                color: #fff;
+                margin: 15px;
+            }
+            p {
+                margin: 10px;
+                color: #E2E2E2;
+            }
+        }
+    }

@@ -1,0 +1,56 @@
+.btn-link {
+    @extend %botonDefault;
+    color: #fff;
+    display: inline-block;
+    background-color: #262626;
+    font-size: 1em;
+    letter-spacing: 1px;
+    align-self: flex-end;
+    &:hover {
+        background: #000;
+        text-decoration: none; 
+    }
+}
+
+.boton-tienda {
+    @include boton ($backColor:#000);
+    color: coral;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+}
+
+.boton-novedades {
+    @extend %botonDefault;
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+    color: coral;
+    width: 100%;
+    font-weight: 600;
+}
+
+.boton-preventas {
+    @extend %botonDefault;
+    background: #2F3136;
+    border-radius: 10px;
+    border: none;
+    color: #DEC3A4;
+    width: 100%;
+    font-weight: 600;
+}
+
+.boton-contacto {
+    @extend %botonDefault;
+    background: #000;
+    border: 0;
+    margin-top: 10px;
+    &:hover,
+    &:focus {
+        background: #fff;
+        color: #AF561C;
+        transition: background-color 1s ease-out;
+        outline: 0;
+    }
+}
