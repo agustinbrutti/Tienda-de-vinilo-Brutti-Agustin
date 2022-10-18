@@ -1,8 +1,31 @@
 .footer-contacto {
-    grid-area: footer-contacto;
     background: #313338;
     font-size: 1.25em;
     grid-area: footer-contacto;
     padding: 1.5625rem;
     text-align: center;
+    .socials {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 1rem 0;
+        li {
+            margin: 0 10px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: coral;
+            } 
+        }
+        a i {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.footer-contacto p {
+    line-height: 1rem;
 }
